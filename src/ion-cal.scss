@@ -32,7 +32,7 @@ $positive: #69BFF8 !default;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    background-color: #69BFF8;
+    background-color: $positive;
     .arrow, .label {
       -webkit-box-ordinal-group: 1;
       -webkit-order: 0;
@@ -152,7 +152,7 @@ $positive: #69BFF8 !default;
       /*background-color: #fCFCFC;*/
     }
     &.today, &.disabled.today {
-      color: #69BFF8;
+      color: $positive;
       border: 1px solid;
     }
     &.selected {
@@ -182,7 +182,7 @@ $positive: #69BFF8 !default;
       .number {
         width: 32px;
         height: 32px;
-        background-color: #69BFF8;
+        background-color: $positive;
         border-radius: 100%;
         line-height: 30px;
         color: #FFFFFF;
@@ -204,7 +204,7 @@ $positive: #69BFF8 !default;
       width: 4px;
       height: 4px;
       border-radius: 100%;
-      background-color: #69BFF8;
+      background-color: $positive;
       position: absolute;
       bottom: 3px;
     }
